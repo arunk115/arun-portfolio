@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaJava, FaDatabase, FaReact, FaBrain, FaYoutube } from "react-icons/fa";
 import { SiSpring, SiMicrodotblog, SiFlutter, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
-import SectionNav from "./SectionNav";
 
 export default function About() {
   return (

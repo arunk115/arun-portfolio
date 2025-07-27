@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import MatrixParticles from "./MatrixParticles";
-import SectionNav from "./SectionNav";
 
 export default function Hero() {
   return (

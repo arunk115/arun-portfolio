@@ -1,21 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaTools, FaMagic } from "react-icons/fa";
-import SectionNav from "./SectionNav";
 
 const projects = [
   {
-    title: "AI-Powered YouTube Channel",
+    title: "7+ years of Live Project",
     description:
-      "Scripted and produced videos using ChatGPT, ElevenLabs, and Canva. Built a faceless, monetized YouTube brand in a high-RPM niche.",
-    icon: <FaMagic className="text-purple-400" />,
-  },
-  {
-    title: "Java Image Classifier",
-    description:
-      "Created a backend service that classifies uploaded images into categories like invoice, document, vehicle damage, and junk using Java + ML integration.",
+      "Worked on several industrial projects comprehending School ERP, HealthCare App, Search Engine Building, Document management system and more...",
     icon: <FaTools className="text-yellow-400" />,
   },
+  {
+    title: "AI-Powered YouTube Channel",
+    description:
+      "Scripted and produced videos using ChatGPT, ElevenLabs, and Canva. Built a faceless YouTube channel in a high-RPM niche.",
+    icon: <FaMagic className="text-purple-400" />,
+  }
 ];
 
 export default function Projects() {

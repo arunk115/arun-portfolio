@@ -8,7 +8,6 @@ import {
   FaDatabase,
   FaYoutube,
 } from "react-icons/fa";
-import SectionNav from "./SectionNav";
 
 const skills = [
   { name: "Java & Spring Boot", icon: <FaJava className="text-orange-400" /> },

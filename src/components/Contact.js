@@ -20,14 +20,14 @@ export default function Contact() {
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:arunsk6006@gmail.com"
             className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-black font-bold px-6 py-3 rounded-full transition"
           >
             <FaEnvelope /> Email Me
           </a>
 
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/arunk115"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded-full transition"
@@ -36,7 +36,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/arunkavi115/"
             target="_blank"
             rel="noreferrer"
             className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition"
