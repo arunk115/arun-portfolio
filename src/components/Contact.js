@@ -5,7 +5,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Contact() {
   return (
     <motion.section
-      id="contact"
+      id="contact-section"
       className="py-20 px-6 bg-black text-white"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}

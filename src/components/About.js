@@ -3,11 +3,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaJava, FaDatabase, FaReact, FaBrain, FaYoutube } from "react-icons/fa";
 import { SiSpring, SiMicrodotblog, SiFlutter, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import SectionNav from "./SectionNav";
 
 export default function About() {
   return (
     <motion.section
-      id="about"
+      id="about-section"
       className="min-h-screen flex flex-col justify-center items-center bg-black text-white px-6 py-24"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

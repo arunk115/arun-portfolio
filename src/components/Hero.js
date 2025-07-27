@@ -2,10 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import MatrixParticles from "./MatrixParticles";
+import SectionNav from "./SectionNav";
 
 export default function Hero() {
   return (
-    <motion.section
+    <motion.section id="hero-section"
       className="relative h-screen w-full flex flex-col justify-center items-center text-center px-6 py-24 bg-black overflow-hidden"
       initial={{ opacity: 0, y: -40 }}
       animate={{ opacity: 1, y: 0 }}

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaTools, FaMagic } from "react-icons/fa";
+import SectionNav from "./SectionNav";
 
 const projects = [
   {
@@ -20,7 +21,7 @@ const projects = [
 export default function Projects() {
   return (
     <motion.section
-      id="projects"
+      id="projects-section"
       className="py-20 px-6 bg-black text-white"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}

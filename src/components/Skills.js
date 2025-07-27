@@ -8,6 +8,7 @@ import {
   FaDatabase,
   FaYoutube,
 } from "react-icons/fa";
+import SectionNav from "./SectionNav";
 
 const skills = [
   { name: "Java & Spring Boot", icon: <FaJava className="text-orange-400" /> },
@@ -21,7 +22,7 @@ const skills = [
 export default function Skills() {
   return (
     <motion.section
-      id="skills"
+      id="skills-section"
       className="py-20 px-6 bg-black text-white"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
