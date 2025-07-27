@@ -10,11 +10,11 @@ import Footer from "./components/Footer";
 export default function Portfolio() {
   return (
     <div className="bg-black text-white font-sans scroll-smooth">
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-     <Contact />
+      <section className="h-screen w-full"><Hero /></section>
+      <section className="h-screen w-full"><About /></section>
+      <section className="h-screen w-full"><Skills /></section>
+      <section className="h-screen w-full"><Projects /></section>
+      <section className="h-screen w-full"><Contact /></section>
       <Footer />
     </div>
   );
