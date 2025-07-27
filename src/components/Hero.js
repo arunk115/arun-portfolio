@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
-import MatrixParticles from "./MatrixParticles"; // Import it
+import MatrixParticles from "./MatrixParticles";
 
 export default function Hero() {
   return (
@@ -26,7 +26,7 @@ export default function Hero() {
           Hi, I'm Arun
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 max-w-2xl">
-          Backend Developer | AI Enthusiast | YouTube Automation Expert
+          Backend Developer | AI Enthusiast
         </p>
 
         <a
